@@ -5,15 +5,24 @@
 
 > Une plateforme de Gestion Électronique de Documents (GED) orientée RH, moderne, sécurisée et intelligente.
 
-**Ce brief vous a été assigné.**  
-Lisez attentivement votre brief avant de débuter votre travail !
+## 🛠️ Technologies
+
+![Node.js](https://img.shields.io/badge/Node.js-18.x-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![MinIO](https://img.shields.io/badge/MinIO-FF9900?style=for-the-badge&logo=minio&logoColor=white)
 
 ---
 
 ## 📌 Informations générales
-
-### 👤 Assignation
-**Travail individuel** - Vous travaillez individuellement sur ce brief.
 
 ### 💼 Situation professionnelle
 Création d'une application **MERN Fullstack** (MongoDB, Express.js, React.js, Node.js)
@@ -38,58 +47,58 @@ La stack **MERN**, combinant MongoDB, Express.js, React.js et Node.js, semble ê
 
 ### 📊 Gestion de projet et organisation
 
-1. **Planifier le travail à effectuer individuellement**  
-   <span style="background-color: #4CAF50; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold;">Niveau 2</span>
+C1. **Planifier le travail à effectuer individuellement**  
+   ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=for-the-badge)
 
-2. **Contribuer au pilotage de l'organisation du travail individuel et collectif**  
-   <span style="background-color: #4CAF50; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold;">Niveau 2</span>
+C2. **Contribuer au pilotage de l'organisation du travail individuel et collectif**  
+   ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=for-the-badge)
 
-9. **Contribuer à la gestion d'un projet**  
-   <span style="background-color: #4CAF50; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold;">Niveau 2</span>
+C9. **Contribuer à la gestion d'un projet**  
+   ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=for-the-badge)
 
 ### 🔍 Analyse et résolution de problèmes
 
-3. **Définir le périmètre d'un problème rencontré en adoptant une démarche inductive**  
-   <span style="background-color: #4CAF50; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold;">Niveau 2</span>
+C3. **Définir le périmètre d'un problème rencontré en adoptant une démarche inductive**  
+   ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=for-the-badge)
 
-4. **Rechercher de façon méthodique une ou des solutions au problème rencontré**  
-   <span style="background-color: #4CAF50; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold;">Niveau 2</span>
+C4. **Rechercher de façon méthodique une ou des solutions au problème rencontré**  
+   ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=for-the-badge)
 
 ### 💬 Communication et documentation
 
-5. **Partager la solution adoptée en utilisant les moyens de partage de connaissance ou de documentation disponibles**  
-   <span style="background-color: #4CAF50; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold;">Niveau 2</span>
+C5. **Partager la solution adoptée en utilisant les moyens de partage de connaissance ou de documentation disponibles**  
+   ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=for-the-badge)
 
-6. **Présenter un travail réalisé en synthétisant ses résultats, sa démarche**  
-   <span style="background-color: #4CAF50; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold;">Niveau 2</span>
+C6. **Présenter un travail réalisé en synthétisant ses résultats, sa démarche**  
+   ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=for-the-badge)
 
 ### 💻 Développement technique
 
-7. **Installer et configurer son environnement de travail en fonction du projet**  
-   <span style="background-color: #4CAF50; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold;">Niveau 2</span>
+C7. **Installer et configurer son environnement de travail en fonction du projet**  
+   ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=for-the-badge)
 
-8. **Développer des composants métier**  
-   <span style="background-color: #4CAF50; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold;">Niveau 2</span>
+C8. **Développer des composants métier**  
+   ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=for-the-badge)
 
-10. **Définir l'architecture logicielle d'une application**  
-    <span style="background-color: #4CAF50; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold;">Niveau 2</span>
+C10. **Définir l'architecture logicielle d'une application**  
+    ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=for-the-badge)
 
-11. **Concevoir et mettre en place une base de données**  
-    <span style="background-color: #4CAF50; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold;">Niveau 2</span>
+C11. **Concevoir et mettre en place une base de données**  
+    ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=for-the-badge)
 
-12. **Développer des composants d'accès aux données**  
-    <span style="background-color: #4CAF50; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold;">Niveau 2</span>
+C12. **Développer des composants d'accès aux données**  
+    ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=for-the-badge)
 
 ### 🧪 Tests et déploiement
 
-13. **Préparer et exécuter les plans de tests**  
-    <span style="background-color: #4CAF50; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold;">Niveau 2</span>
+C13. **Préparer et exécuter les plans de tests**  
+    ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=for-the-badge)
 
-14. **Préparer et documenter le déploiement d'une application**  
-    <span style="background-color: #4CAF50; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold;">Niveau 2</span>
+C14. **Préparer et documenter le déploiement d'une application**  
+    ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=for-the-badge)
 
-15. **Contribuer à la mise en production dans une démarche DevOps**  
-    <span style="background-color: #4CAF50; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold;">Niveau 2</span>
+C15. **Contribuer à la mise en production dans une démarche DevOps**  
+    ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=for-the-badge)
 
 ---
 
