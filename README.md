@@ -7,7 +7,7 @@
 
 ## 🛠️ Technologies
 
-![Node.js](https://img.shields.io/badge/Node.js-18.x-339933?style=plastic&logo=node.js&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-22.16.0-339933?style=plastic&logo=node.js&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=plastic&logo=nestjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=plastic&logo=typescript&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=plastic&logo=mongodb&logoColor=white)
