@@ -7,18 +7,18 @@
 
 ## 🛠️ Technologies
 
-![Node.js](https://img.shields.io/badge/Node.js-18.x-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![MinIO](https://img.shields.io/badge/MinIO-FF9900?style=for-the-badge&logo=minio&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-18.x-339933?style=plastic&logo=node.js&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=plastic&logo=nestjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=plastic&logo=typescript&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=plastic&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=plastic&logo=postgresql&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=plastic&logo=react&logoColor=61DAFB)
+![Express](https://img.shields.io/badge/Express.js-000000?style=plastic&logo=express&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=plastic&logo=docker&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=plastic&logo=JSON%20web%20tokens&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-C21325?style=plastic&logo=jest&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=plastic&logo=github-actions&logoColor=white)
+![MinIO](https://img.shields.io/badge/MinIO-FF9900?style=plastic&logo=minio&logoColor=white)
 
 ---
 
@@ -48,57 +48,57 @@ La stack **MERN**, combinant MongoDB, Express.js, React.js et Node.js, semble ê
 ### 📊 Gestion de projet et organisation
 
 C1. **Planifier le travail à effectuer individuellement**  
-   ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=for-the-badge)
+   ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=plastic)
 
 C2. **Contribuer au pilotage de l'organisation du travail individuel et collectif**  
-   ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=for-the-badge)
+   ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=plastic)
 
 C9. **Contribuer à la gestion d'un projet**  
-   ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=for-the-badge)
+   ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=plastic)
 
 ### 🔍 Analyse et résolution de problèmes
 
 C3. **Définir le périmètre d'un problème rencontré en adoptant une démarche inductive**  
-   ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=for-the-badge)
+   ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=plastic)
 
 C4. **Rechercher de façon méthodique une ou des solutions au problème rencontré**  
-   ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=for-the-badge)
+   ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=plastic)
 
 ### 💬 Communication et documentation
 
 C5. **Partager la solution adoptée en utilisant les moyens de partage de connaissance ou de documentation disponibles**  
-   ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=for-the-badge)
+   ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=plastic)
 
 C6. **Présenter un travail réalisé en synthétisant ses résultats, sa démarche**  
-   ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=for-the-badge)
+   ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=plastic)
 
 ### 💻 Développement technique
 
 C7. **Installer et configurer son environnement de travail en fonction du projet**  
-   ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=for-the-badge)
+   ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=plastic)
 
 C8. **Développer des composants métier**  
-   ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=for-the-badge)
+   ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=plastic)
 
 C10. **Définir l'architecture logicielle d'une application**  
-    ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=for-the-badge)
+    ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=plastic)
 
 C11. **Concevoir et mettre en place une base de données**  
-    ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=for-the-badge)
+    ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=plastic)
 
 C12. **Développer des composants d'accès aux données**  
-    ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=for-the-badge)
+    ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=plastic)
 
 ### 🧪 Tests et déploiement
 
 C13. **Préparer et exécuter les plans de tests**  
-    ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=for-the-badge)
+    ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=plastic)
 
 C14. **Préparer et documenter le déploiement d'une application**  
-    ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=for-the-badge)
+    ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=plastic)
 
 C15. **Contribuer à la mise en production dans une démarche DevOps**  
-    ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=for-the-badge)
+    ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=plastic)
 
 ---
 
