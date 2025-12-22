@@ -268,7 +268,12 @@ cp .env.example .env
 
 ```env
 # Base de données MongoDB
-MONGODB_URI=mongodb://localhost:27017/gedpro
+MONGODB_HOST=localhost
+MONGODB_PORT=27017
+MONGODB_USER=gedpro_user
+MONGODB_PASSWORD=your_password
+MONGODB_DATABASE=gedpro
+MONGODB_URI=mongodb://gedpro_user:your_password@localhost:27017/gedpro?authSource=admin
 
 # Base de données PostgreSQL
 POSTGRES_HOST=localhost
