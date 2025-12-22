@@ -45,60 +45,37 @@ La stack **MERN**, combinant MongoDB, Express.js, React.js et Node.js, semble ê
 
 ## 🎯 Compétences visées
 
+> 💡 **Note** : Toutes les compétences listées ci-dessous sont évaluées au ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=plastic)
+
 ### 📊 Gestion de projet et organisation
 
-C1. **Planifier le travail à effectuer individuellement**  
-   ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=plastic)
-
-C2. **Contribuer au pilotage de l'organisation du travail individuel et collectif**  
-   ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=plastic)
-
-C9. **Contribuer à la gestion d'un projet**  
-   ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=plastic)
+- _C1_. **Planifier le travail à effectuer individuellement**
+- _C2_. **Contribuer au pilotage de l'organisation du travail individuel et collectif**
+- _C9_. **Contribuer à la gestion d'un projet**
 
 ### 🔍 Analyse et résolution de problèmes
 
-C3. **Définir le périmètre d'un problème rencontré en adoptant une démarche inductive**  
-   ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=plastic)
-
-C4. **Rechercher de façon méthodique une ou des solutions au problème rencontré**  
-   ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=plastic)
+- _C3_. **Définir le périmètre d'un problème rencontré en adoptant une démarche inductive**
+- _C4_. **Rechercher de façon méthodique une ou des solutions au problème rencontré**
 
 ### 💬 Communication et documentation
 
-C5. **Partager la solution adoptée en utilisant les moyens de partage de connaissance ou de documentation disponibles**  
-   ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=plastic)
-
-C6. **Présenter un travail réalisé en synthétisant ses résultats, sa démarche**  
-   ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=plastic)
+- _C5_. **Partager la solution adoptée en utilisant les moyens de partage de connaissance ou de documentation disponibles**
+- _C6_. **Présenter un travail réalisé en synthétisant ses résultats, sa démarche**
 
 ### 💻 Développement technique
 
-C7. **Installer et configurer son environnement de travail en fonction du projet**  
-   ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=plastic)
-
-C8. **Développer des composants métier**  
-   ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=plastic)
-
-C10. **Définir l'architecture logicielle d'une application**  
-    ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=plastic)
-
-C11. **Concevoir et mettre en place une base de données**  
-    ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=plastic)
-
-C12. **Développer des composants d'accès aux données**  
-    ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=plastic)
+- _C7_. **Installer et configurer son environnement de travail en fonction du projet**
+- _C8_. **Développer des composants métier**
+- _C10_. **Définir l'architecture logicielle d'une application**
+- _C11_. **Concevoir et mettre en place une base de données**
+- _C12_. **Développer des composants d'accès aux données**
 
 ### 🧪 Tests et déploiement
 
-C13. **Préparer et exécuter les plans de tests**  
-    ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=plastic)
-
-C14. **Préparer et documenter le déploiement d'une application**  
-    ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=plastic)
-
-C15. **Contribuer à la mise en production dans une démarche DevOps**  
-    ![Niveau](https://img.shields.io/badge/Niveau-2-4CAF50?style=plastic)
+- _C13_. **Préparer et exécuter les plans de tests**
+- _C14_. **Préparer et documenter le déploiement d'une application**
+- _C15_. **Contribuer à la mise en production dans une démarche DevOps**
 
 ---
 
