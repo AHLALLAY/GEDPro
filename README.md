@@ -1,98 +1,519 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
-</p>
+# 📋 GEDPro - Plateforme GED RH Intelligente
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+> **Assigné par** : _**Zakaria Ziane**_  
+> **Créé** : _**22/12/25**_
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg" alt="Donate us"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow" alt="Follow us on Twitter"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+> Une plateforme de Gestion Électronique de Documents (GED) orientée RH, moderne, sécurisée et intelligente.
 
-## Description
+**Ce brief vous a été assigné.**  
+Lisez attentivement votre brief avant de débuter votre travail !
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+---
 
-## Project setup
+## 📌 Informations générales
+
+### 👤 Assignation
+**Travail individuel** - Vous travaillez individuellement sur ce brief.
+
+### 💼 Situation professionnelle
+Création d'une application **MERN Fullstack** (MongoDB, Express.js, React.js, Node.js)
+
+### 📖 Modalités pédagogiques
+- **Type** : Travail individuel  
+- **Deadline** : **02 Janvier 2026**
+
+---
+
+## 💡 Besoin visé ou problème rencontré
+
+Dans le contexte web actuel, on recherche des solutions pour développer des applications web performantes et intuitives. Celles-ci doivent être à la fois simples à administrer et à déployer. 
+
+Comment peut-on allier efficacement le rendu côté serveur, propre à la logique traditionnelle, à la flexibilité et la réactivité offertes par JavaScript et Node.js ? 
+
+La stack **MERN**, combinant MongoDB, Express.js, React.js et Node.js, semble être une réponse prometteuse à ce défi.
+
+---
+
+## 🎯 Compétences visées
+
+### 📊 Gestion de projet et organisation
+
+1. **Planifier le travail à effectuer individuellement**  
+   <span style="background-color: #4CAF50; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold;">Niveau 2</span>
+
+2. **Contribuer au pilotage de l'organisation du travail individuel et collectif**  
+   <span style="background-color: #4CAF50; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold;">Niveau 2</span>
+
+9. **Contribuer à la gestion d'un projet**  
+   <span style="background-color: #4CAF50; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold;">Niveau 2</span>
+
+### 🔍 Analyse et résolution de problèmes
+
+3. **Définir le périmètre d'un problème rencontré en adoptant une démarche inductive**  
+   <span style="background-color: #4CAF50; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold;">Niveau 2</span>
+
+4. **Rechercher de façon méthodique une ou des solutions au problème rencontré**  
+   <span style="background-color: #4CAF50; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold;">Niveau 2</span>
+
+### 💬 Communication et documentation
+
+5. **Partager la solution adoptée en utilisant les moyens de partage de connaissance ou de documentation disponibles**  
+   <span style="background-color: #4CAF50; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold;">Niveau 2</span>
+
+6. **Présenter un travail réalisé en synthétisant ses résultats, sa démarche**  
+   <span style="background-color: #4CAF50; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold;">Niveau 2</span>
+
+### 💻 Développement technique
+
+7. **Installer et configurer son environnement de travail en fonction du projet**  
+   <span style="background-color: #4CAF50; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold;">Niveau 2</span>
+
+8. **Développer des composants métier**  
+   <span style="background-color: #4CAF50; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold;">Niveau 2</span>
+
+10. **Définir l'architecture logicielle d'une application**  
+    <span style="background-color: #4CAF50; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold;">Niveau 2</span>
+
+11. **Concevoir et mettre en place une base de données**  
+    <span style="background-color: #4CAF50; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold;">Niveau 2</span>
+
+12. **Développer des composants d'accès aux données**  
+    <span style="background-color: #4CAF50; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold;">Niveau 2</span>
+
+### 🧪 Tests et déploiement
+
+13. **Préparer et exécuter les plans de tests**  
+    <span style="background-color: #4CAF50; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold;">Niveau 2</span>
+
+14. **Préparer et documenter le déploiement d'une application**  
+    <span style="background-color: #4CAF50; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold;">Niveau 2</span>
+
+15. **Contribuer à la mise en production dans une démarche DevOps**  
+    <span style="background-color: #4CAF50; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; font-weight: bold;">Niveau 2</span>
+
+---
+
+## 📚 Contexte du projet
+
+### 🎯 Problématique
+
+Les services **Ressources Humaines** sont confrontés à une volumétrie croissante de documents (CV, lettres de motivation, contrats, attestations, évaluations) et à des processus souvent manuels pour le tri, le suivi et l'analyse des profils.
+
+### 🎯 Objectif
+
+Le projet vise à répondre à ces enjeux en proposant une plateforme de **Gestion Électronique de Documents (GED)** orientée RH, moderne, sécurisée et intelligente.
+
+### 🎯 Objectifs fonctionnels
+
+Développer une application web permettant aux équipes RH de :
+
+- ✅ Créer des formulaires dynamiques adaptés à leurs besoins (recrutement, onboarding, évaluation)
+- ✅ Centraliser et organiser les documents des candidats et employés
+- ✅ Automatiser l'analyse des documents grâce à l'OCR et à l'extraction de compétences (skills)
+- ✅ Assurer un suivi complet des dossiers via des workflows clairs et traçables
+
+---
+
+## 🚀 Fonctionnalités principales
+
+### 📅 Organisation des réunions / entretiens (Agenda)
+
+- **Création d'entretiens** depuis GEDPro (date, heure, durée, type)
+- **Synchronisation automatique** avec un service de calendrier externe :
+  - Google Calendar API (plan gratuit)
+  - Alternatives gratuites : CalDAV, Microsoft Outlook Calendar Free, Zoho Calendar API
+- **Invitation automatique** des participants (RH, manager, candidat)
+- **Mise à jour et annulation** synchronisées
+
+### 📄 Gestion documentaire intelligente
+
+- **Upload de documents** (CV, diplômes, contrats)
+- **Stockage sécurisé** via MinIO
+- **Lecture OCR** des documents
+- **Extraction et indexation** des compétences (skills)
+
+### 👥 Comptes et sous-comptes
+
+- **Isolation des données** par organisation
+- **Administrateur RH** : création et gestion des sous-comptes, attribution des rôles (RH, manager)
+- **Accès restreint** aux données selon les permissions
+- **Multi-tenant** _(bonus)_
+
+### 📝 Formulaires RH dynamiques
+
+- **Création de formulaires personnalisés** avec champs : texte, nombre, email, fichier
+- **Association des formulaires** à des offres ou processus RH
+- **Gestion des candidats et états**
+- **Création d'un dossier candidat** à partir des formulaires RH
+- **Gestion des états du candidat** :
+  - Nouveau
+  - Présélectionné
+  - Entretien planifié
+  - En entretien
+  - Accepté
+  - Refusé
+- **Historique des changements d'état** avec date et utilisateur responsable
+
+### 🔔 Notifications temps réel
+
+- Nouvelle candidature
+- Changement d'état
+- Entretien planifié, modifié ou annulé
+
+---
+
+## 🎯 Résultat attendu
+
+La plateforme doit permettre :
+
+- ✅ Un suivi structuré et traçable des candidats
+- ✅ Une planification simple et synchronisée des entretiens
+- ✅ Une gestion documentaire RH intelligente
+- ✅ Une collaboration fluide grâce aux notifications temps réel
+- ✅ Tout en s'appuyant sur des API gratuites et standards et une architecture **NestJS** robuste et évolutive
+
+---
+
+## 📊 Modalités d'évaluation
+
+**Durée totale** : **25 minutes**
+
+| Phase | Durée | Description |
+|-------|-------|-------------|
+| **Démonstration** | 5 min | Démontrer le contenu et la fonctionnalité du site Web (très rapidement) |
+| **Code source** | 5 min | Montrer le code source et expliquer brièvement comment il fonctionne |
+| **Mise en situation** | 10 min | Résolution d'un problème pratique |
+| **Code Review & Questions** | 5 min | Code Review \ Questions culture Web |
+
+---
+
+## 📦 Livrables
+
+### 📁 Code source
+
+- ✅ Lien GitHub de l'application
+- ✅ Toutes les sources de l'application, correctement commentées, structurées et organisées
+- ✅ Code modulaire respectant les bonnes pratiques de développement
+
+### 📋 Planification
+
+- ✅ Planification JIRA (backlog, sprints, tickets, suivi d'avancement)
+
+### 🔧 CI/CD
+
+- ✅ GitHub Actions (CI : lint, tests, build, éventuellement déploiement)
+
+### 📖 Documentation technique
+
+- ✅ Description de l'architecture de l'application
+- ✅ Guide d'installation et de configuration
+- ✅ Détails sur toutes les bibliothèques et dépendances externes utilisées (rôle, version, justification)
+
+---
+
+## ⚡ Critères de performance
+
+### 🏗️ Architecture et développement
+
+- ✅ **OOP** : Implémentation en utilisant l'OOP afin de garantir une extensibilité optimale de la solution
+- ✅ **Module HTTP** : Utilisation du module HTTP recommandée (Express peut également être utilisé)
+- ✅ **Architecture n-tiers** : Architecture structurée
+- ✅ **Conventions** : Respect des conventions de nommage
+
+### 🗄️ Base de données
+
+- ✅ **MongoDB et Postgres** : Utilisation des deux bases de données
+- ✅ **ODM** : Utilisation de Mongoose ou autre ODM
+
+### 🔐 Sécurité
+
+- ✅ **Authentification JWT** : Sécuriser les données avec JWT, avec un middleware correctement implémenté
+- ✅ **Validation** : Validation des données côté backend
+- ✅ **Gestion des erreurs** : Gestion des exceptions et des erreurs
+
+### 🧪 Tests et qualité
+
+- ✅ **Tests Jest** : Tests des services avec Jest
+- ✅ **CI/CD** : GitHub Actions (CI : lint, tests, build, éventuellement déploiement)
+
+### 📋 Gestion de projet
+
+- ✅ **JIRA** : Planification sur JIRA incluant :
+  - Utilisation des epics, user stories / tasks et sub-tasks
+  - Relier JIRA avec GitHub
+  - Mettre en place des règles d'automatisation
+
+### 🐳 Déploiement
+
+- ✅ **Dockerisation** : Dockerisation du projet
+
+---
+
+## 🚀 Installation
+
+### Prérequis
+
+Avant de commencer, assurez-vous d'avoir installé les outils suivants :
+
+- **Node.js** (version 18.x ou supérieure)
+- **npm** ou **yarn** (gestionnaire de paquets)
+- **MongoDB** (version 5.x ou supérieure)
+- **PostgreSQL** (version 14.x ou supérieure)
+- **Docker** et **Docker Compose** (pour le déploiement)
+- **Git** (pour le contrôle de version)
+
+### Installation des dépendances
 
 ```bash
-$ npm install
+# Installation des dépendances du projet
+npm install
 ```
 
-## Compile and run the project
+### Configuration de l'environnement
+
+1. **Créer un fichier `.env`** à la racine du projet en vous basant sur `.env.example` :
 
 ```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
+# Copier le fichier d'exemple
+cp .env.example .env
 ```
 
-## Run tests
+2. **Configurer les variables d'environnement** dans le fichier `.env` :
+
+```env
+# Base de données MongoDB
+MONGODB_URI=mongodb://localhost:27017/gedpro
+
+# Base de données PostgreSQL
+POSTGRES_HOST=localhost
+POSTGRES_PORT=5432
+POSTGRES_USER=gedpro_user
+POSTGRES_PASSWORD=your_password
+POSTGRES_DB=gedpro_db
+
+# JWT
+JWT_SECRET=your_jwt_secret_key
+JWT_EXPIRATION=24h
+
+# MinIO (Stockage de fichiers)
+MINIO_ENDPOINT=localhost
+MINIO_PORT=9000
+MINIO_ACCESS_KEY=minioadmin
+MINIO_SECRET_KEY=minioadmin
+MINIO_BUCKET=gedpro-documents
+
+# API Calendrier (Google Calendar)
+GOOGLE_CALENDAR_CLIENT_ID=your_client_id
+GOOGLE_CALENDAR_CLIENT_SECRET=your_client_secret
+GOOGLE_CALENDAR_REDIRECT_URI=http://localhost:3000/auth/google/callback
+
+# Application
+PORT=3000
+NODE_ENV=development
+```
+
+### Démarrage des services
+
+#### Option 1 : Avec Docker Compose (Recommandé)
 
 ```bash
-# unit tests
-$ npm run test
+# Démarrer tous les services (MongoDB, PostgreSQL, MinIO)
+docker-compose up -d
 
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+# Vérifier que les services sont démarrés
+docker-compose ps
 ```
 
-## Deployment
+#### Option 2 : Installation manuelle
 
-When you're ready to deploy your NestJS application to production, there are some key steps you can take to ensure it runs as efficiently as possible. Check out the [deployment documentation](https://docs.nestjs.com/deployment) for more information.
+1. **Démarrer MongoDB** :
+```bash
+mongod
+```
 
-If you are looking for a cloud-based platform to deploy your NestJS application, check out [Mau](https://mau.nestjs.com), our official platform for deploying NestJS applications on AWS. Mau makes deployment straightforward and fast, requiring just a few simple steps:
+2. **Démarrer PostgreSQL** :
+```bash
+# Sur Windows
+pg_ctl -D "C:\Program Files\PostgreSQL\14\data" start
+
+# Sur Linux/Mac
+sudo systemctl start postgresql
+```
+
+3. **Démarrer MinIO** :
+```bash
+docker run -p 9000:9000 -p 9001:9001 \
+  -e "MINIO_ROOT_USER=minioadmin" \
+  -e "MINIO_ROOT_PASSWORD=minioadmin" \
+  minio/minio server /data --console-address ":9001"
+```
+
+### Exécution de l'application
 
 ```bash
-$ npm install -g @nestjs/mau
-$ mau deploy
+# Mode développement (avec hot-reload)
+npm run start:dev
+
+# Mode production
+npm run build
+npm run start:prod
+
+# Mode watch
+npm run start:watch
 ```
 
-With Mau, you can deploy your application in just a few clicks, allowing you to focus on building features rather than managing infrastructure.
+### Initialisation de la base de données
 
-## Resources
+```bash
+# Exécuter les migrations
+npm run migration:run
 
-Check out a few resources that may come in handy when working with NestJS:
+# Seed la base de données avec des données de test (optionnel)
+npm run seed
+```
 
-- Visit the [NestJS Documentation](https://docs.nestjs.com) to learn more about the framework.
-- For questions and support, please visit our [Discord channel](https://discord.gg/G7Qnnhy).
-- To dive deeper and get more hands-on experience, check out our official video [courses](https://courses.nestjs.com/).
-- Deploy your application to AWS with the help of [NestJS Mau](https://mau.nestjs.com) in just a few clicks.
-- Visualize your application graph and interact with the NestJS application in real-time using [NestJS Devtools](https://devtools.nestjs.com).
-- Need help with your project (part-time to full-time)? Check out our official [enterprise support](https://enterprise.nestjs.com).
-- To stay in the loop and get updates, follow us on [X](https://x.com/nestframework) and [LinkedIn](https://linkedin.com/company/nestjs).
-- Looking for a job, or have a job to offer? Check out our official [Jobs board](https://jobs.nestjs.com).
+### Vérification de l'installation
 
-## Support
+Une fois l'application démarrée, vous pouvez vérifier que tout fonctionne :
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+- **API Backend** : http://localhost:3000
+- **Health Check** : http://localhost:3000/health
+- **MinIO Console** : http://localhost:9001 (minioadmin/minioadmin)
 
-## Stay in touch
+---
 
-- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+## 🤝 Contribution
 
-## License
+### Structure du projet
 
-Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+```
+gedpro/
+├── src/
+│   ├── modules/          # Modules métier (auth, users, documents, etc.)
+│   ├── common/           # Utilitaires et décorateurs communs
+│   ├── config/           # Configuration de l'application
+│   ├── database/         # Configuration des bases de données
+│   └── main.ts           # Point d'entrée de l'application
+├── test/                 # Tests unitaires et e2e
+├── docker/               # Fichiers Docker
+├── .github/              # GitHub Actions et workflows
+└── docs/                 # Documentation technique
+```
+
+### Processus de contribution
+
+1. **Fork le projet** et clonez votre fork :
+```bash
+git clone https://github.com/votre-username/gedpro.git
+cd gedpro
+```
+
+2. **Créer une branche** pour votre fonctionnalité :
+```bash
+git checkout -b feature/ma-nouvelle-fonctionnalite
+# ou
+git checkout -b fix/correction-bug
+```
+
+3. **Faire vos modifications** en respectant :
+   - Les conventions de nommage du projet
+   - Les règles de linting (ESLint, Prettier)
+   - Les principes SOLID et l'OOP
+   - La structure n-tiers
+
+4. **Écrire des tests** pour vos modifications :
+```bash
+# Tests unitaires
+npm run test
+
+# Tests e2e
+npm run test:e2e
+
+# Couverture de code
+npm run test:cov
+```
+
+5. **Vérifier le linting** :
+```bash
+npm run lint
+npm run format
+```
+
+6. **Commit vos changements** avec des messages clairs :
+```bash
+git add .
+git commit -m "feat: ajout de la fonctionnalité X"
+# ou
+git commit -m "fix: correction du bug Y"
+```
+
+**Convention de commit** :
+- `feat:` : Nouvelle fonctionnalité
+- `fix:` : Correction de bug
+- `docs:` : Documentation
+- `style:` : Formatage, style
+- `refactor:` : Refactorisation
+- `test:` : Tests
+- `chore:` : Tâches de maintenance
+
+7. **Push vers votre fork** :
+```bash
+git push origin feature/ma-nouvelle-fonctionnalite
+```
+
+8. **Créer une Pull Request** sur GitHub avec :
+   - Une description claire des changements
+   - Les références aux issues liées (si applicable)
+   - Les captures d'écran (pour les changements UI)
+
+### Standards de code
+
+- **TypeScript** : Utiliser TypeScript strict mode
+- **ESLint** : Respecter les règles ESLint configurées
+- **Prettier** : Formater le code avec Prettier
+- **Tests** : Maintenir une couverture de code > 80%
+- **Documentation** : Commenter les fonctions complexes et les classes
+
+### Tests
+
+Avant de soumettre une PR, assurez-vous que :
+
+```bash
+# Tous les tests passent
+npm run test
+
+# Le linting est correct
+npm run lint
+
+# Le build fonctionne
+npm run build
+```
+
+### Questions ou problèmes ?
+
+Si vous avez des questions ou rencontrez des problèmes :
+
+1. Vérifiez les [Issues existantes](https://github.com/votre-username/gedpro/issues)
+2. Créez une nouvelle issue si nécessaire
+3. Contactez le mainteneur du projet
+
+---
+
+## 📝 License
+
+Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
+
+---
+
+## 👥 Auteur
+
+**Zakaria Ziane**
+
+- Projet créé le : **22/12/25**
+- Deadline : **02 Janvier 2026**
+
+---
+
+## 🙏 Remerciements
+
+Merci à tous ceux qui contribuent à ce projet et qui partagent leurs retours et suggestions.
