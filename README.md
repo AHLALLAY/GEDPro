@@ -12,8 +12,6 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=plastic&logo=typescript&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=plastic&logo=mongodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=plastic&logo=postgresql&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=plastic&logo=react&logoColor=61DAFB)
-![Express](https://img.shields.io/badge/Express.js-000000?style=plastic&logo=express&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=plastic&logo=docker&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=plastic&logo=JSON%20web%20tokens&logoColor=white)
 ![Jest](https://img.shields.io/badge/Jest-C21325?style=plastic&logo=jest&logoColor=white)
