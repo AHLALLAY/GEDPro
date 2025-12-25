@@ -31,7 +31,6 @@ export class AuthService {
             role: user.role
         });
         return {
-            message: "welcome !",
             token: token,
             data: {
                 id: user.id,
