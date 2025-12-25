@@ -1,13 +1,21 @@
-if (!process.env.JWT_SECRET) {
-    throw new Error('JWT_SECRET is required in .env file');
-}
-if (!process.env.JWT_EXPIRATION) {
-    throw new Error('JWT_EXPIRATION is required in .env file');
-}
+import { ConfigService } from '@nestjs/config';
+import { JwtModuleOptions } from '@nestjs/jwt';
 
-export const jwtConfig = {
-    secret: process.env.JWT_SECRET as string,
+export const jwtConfigFactory = (configService: ConfigService): JwtModuleOptions => {
+  const secret = configService.get<string>('JWT_SECRET');
+  const expiration = configService.get<string>('JWT_EXPIRATION');
+
+  if (!secret) {
+    throw new Error('JWT_SECRET is required in .env file');
+  }
+  if (!expiration) {
+    throw new Error('JWT_EXPIRATION is required in .env file');
+  }
+
+  return {
+    secret,
     signOptions: {
-        expiresIn: process.env.JWT_EXPIRATION as string
+      expiresIn: expiration
     }
-}
+  } as JwtModuleOptions;
+};
