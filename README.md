@@ -5,6 +5,8 @@
 
 > Une plateforme de Gestion Électronique de Documents (GED) orientée RH, moderne, sécurisée et intelligente.
 
+> 📚 **Documentation** : Pour une documentation technique détaillée du code et de l'architecture, consultez [`doc.md`](./doc.md)
+
 ## 🛠️ Technologies
 
 ![Node.js](https://img.shields.io/badge/Node.js-22.16.0-339933?style=plastic&logo=node.js&logoColor=white)
@@ -23,7 +25,7 @@
 ## 📌 Informations générales
 
 ### 💼 Situation professionnelle
-Création d'une application **MERN Fullstack** (MongoDB, Express.js, React.js, Node.js)
+Création d'une application **Fullstack** avec **NestJS** (MongoDB, PostgreSQL, TypeScript, Node.js)
 
 ### 📖 Modalités pédagogiques
 - **Type** : Travail individuel  
@@ -37,7 +39,7 @@ Dans le contexte web actuel, on recherche des solutions pour développer des app
 
 Comment peut-on allier efficacement le rendu côté serveur, propre à la logique traditionnelle, à la flexibilité et la réactivité offertes par JavaScript et Node.js ? 
 
-La stack **MERN**, combinant MongoDB, Express.js, React.js et Node.js, semble être une réponse prometteuse à ce défi.
+La stack moderne avec **NestJS**, combinant MongoDB, PostgreSQL, TypeScript et Node.js, offre une architecture robuste et évolutive pour répondre à ce défi.
 
 ---
 
