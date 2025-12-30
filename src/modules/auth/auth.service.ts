@@ -25,9 +25,6 @@ export class AuthService {
 
         const token = this.jwtService.sign({
             id: user.id,
-            email: user.email,
-            name: user.name,
-            phone: user.phone,
             role: user.role
         });
         return {
@@ -57,7 +54,8 @@ export class AuthService {
         const savedUser = await this.userRepository.save(user);
         const token = this.jwtService.sign({
             id: savedUser.id,
-            email: savedUser.email
+            email: savedUser.email,
+            role: savedUser.role,
         });
 
         return {
