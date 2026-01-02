@@ -9,6 +9,7 @@ import { UserModule } from "../users/user.module";
 @Module({
     imports: [
         JwtModule.registerAsync({
+            global: true,
             imports: [ConfigModule],
             useFactory: jwtConfigFactory,
             inject: [ConfigService]

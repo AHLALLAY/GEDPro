@@ -1,14 +1,36 @@
-import { ConflictException, Injectable, NotFoundException } from "@nestjs/common";
+import { ConflictException, Injectable, NotFoundException, OnModuleInit } from "@nestjs/common";
 import { InjectRepository } from "@nestjs/typeorm";
 import { User } from "./entites/user.entity";
 import { Repository } from "typeorm";
 import { CreateUserDto } from "./dto/create-user.dto";
-import { compare, hash } from "bcrypt";
+import { hash } from "bcrypt";
 import { UpdateUserDto } from "./dto/update-user.dto";
 
 @Injectable()
-export class UserService {
+export class UserService implements OnModuleInit{
     constructor(@InjectRepository(User) private userRepository: Repository<User>) { }
+
+    async onModuleInit(){
+        await this.seedAdmin();
+    }
+    private async seedAdmin(){
+        const adminEmail = process.env.ADMIN_EMAIL;
+        
+        const isExists = await this.userRepository.findOne({
+            where: {email: adminEmail},
+        })
+        if(!isExists) {
+            const hashedPwd = await hash("adminPass", 10);
+            await this.userRepository.save({
+                name:"Abderrahmane Ahlallay",
+                email: adminEmail,
+                password: hashedPwd,
+                phone: "0600000000",
+                role: "Admin",
+            });
+            console.log(`Compte Admin par défaut : \nemail : ${adminEmail}\nmot de passe : adminPass`)
+        }
+    }
     async getUsers() {
         return await this.userRepository.find({
             select: ['id', 'name', 'email', 'phone', 'role', 'createdAt']
@@ -25,7 +47,7 @@ export class UserService {
         return user;
     }
 
-    async createUser(createUserDto: CreateUserDto) {
+    async createUser(createUserDto: any) {
         const { email, password } = createUserDto;
         const isUserExiste = await this.userRepository.findOne({
             where: { email }
