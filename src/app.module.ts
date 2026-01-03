@@ -8,6 +8,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { DatabaseModule } from './database/database.module';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { join } from 'path';
+import { DocumentModule } from './modules/documents/document.module';
 
 @Module({
   imports: [
@@ -39,6 +40,7 @@ import { join } from 'path';
     }),
     DatabaseModule,
     UserModule,
+    DocumentModule,
     AuthModule
   ],
   controllers: [AppController],
