@@ -47,7 +47,7 @@ export class UserService implements OnModuleInit{
         return user;
     }
 
-    async createUser(createUserDto: any) {
+    async createUser(createUserDto: CreateUserDto) {
         const { email, password } = createUserDto;
         const isUserExiste = await this.userRepository.findOne({
             where: { email }
