@@ -8,5 +8,8 @@ export class DocumentService {
     constructor(
         @InjectModel(Document.name) private documentModel: Model<Doc>
     ) { }
-
+    
+    async createDocument(documentData: Partial<Document>) {
+        return await this.documentModel.create(documentData);
+    }
 }
